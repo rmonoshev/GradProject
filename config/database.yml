@@ -1,0 +1,25 @@
+default: &default
+   adapter: postgresql
+   encoding: unicode
+  
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: development_rfper
+   username: rfper_ruby
+   password: P@ssR1620..
+
+test:
+   adapter: postgresql
+   encoding: unicode
+   database: test_rfper
+   username: rfper_ruby
+   password: P@ssR1620..
+ 
+production:
+   adapter: postgresql
+   encoding: unicode
+   database: production_rfper
+   username: rfper_ruby
+   password: P@ssR1620..
+

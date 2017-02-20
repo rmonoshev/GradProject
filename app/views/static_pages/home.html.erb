@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>RFPer Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="rper126-top">
+  <ul class="rper126-navbar rper126-white rper126-wide rper126-padding-8 rper126-card-2">
+    <li>
+      <a href="#home" class="rper126-margin-left"><b>RFPer</b> Request For Proposals easy tracking platform</a>
+    </li>
+    <!-- Float links to the right. Hide them on small screens -->
+    <li class="rper126-right rper126-hide-small">
+      <a href="#home" class="rper126-left">Home</a>
+      <a href="#about" class="rper126-left">What is RFPer?</a>
+      <a href="#contact" class="rper126-left rper126-margin-right">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Header -->
+<header class="rper126-display-container rper126-content rper126-wide" style="max-width:1500px;" id="home">
+	
+	<%= image_tag("Home_Background.jpg", :alt => "RFPer") %>
+  
+  <div class="rper126-display-middle rper126-margin-top rper126-center">
+    <h1 class="rper126-xxlarge rper126-text-white"><span class="rper126-padding rper126-black rper126-opacity-min"><b>RFPer</b></span> <span class="rper126-hide-small rper126-text-light-grey">Easy tracking platform for Request For Proposals process</span></h1>
+  </div>
+</header>
+
+  <!-- About Section -->
+  <div class="rper126-container rper126-padding-32" id="about">
+    <h3 class="rper126-border-bottom rper126-border-light-grey rper126-padding-12">About</h3>
+    <p>RFPer is a web-based cloud platform for businesses to publish, track the request for proposal (RFP) process from start to completion. The web app will allow for companies to easily announce RFPs, communicate with vendors, and evaluate the submitted (by vendors who can upload the files on web app) bids. The Accounts Payable or Procurement team will be able to track the RFP purchasing process from start to finish and get exportable reports anywhere with internet access.
+    </p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="rper126-container rper126-padding-32" id="contact">
+    <h3 class="rper126-border-bottom rper126-border-light-grey rper126-padding-12">Contact</h3>
+    <p>Contact if interested in getting RFPer web app for your business.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="rper126-input" type="text" placeholder="Name" required name="Name">
+      <input class="rper126-input rper126-section" type="text" placeholder="Email" required name="Email">
+      <input class="rper126-input rper126-section" type="text" placeholder="Subject" required name="Subject">
+      <input class="rper126-input rper126-section" type="text" placeholder="Comment" required name="Comment">
+      <button class="rper126-btn rper126-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="rper126-center rper126-black rper126-padding-16">
+  <p>Copyright <a href="https://126itservices.com" title="RFPer" target="_blank" class="rper126-hover-text-green">RFPer</a></p>
+</footer>
+
+</body>
+</html>
